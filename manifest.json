@@ -1,0 +1,14 @@
+{
+    "name": "Cleaning zhihu",
+    "version": "1.0",
+    "description": "Build an Extension!",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+          "matches": ["http://*.zhihu.com/*","https://*.zhihu.com/*"],
+          "js": ["content_scripts.js"],
+          "css":["content_hide.css"],
+          "run_at": "document_start"
+        }
+      ]
+}
