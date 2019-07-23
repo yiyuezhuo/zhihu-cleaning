@@ -7,6 +7,28 @@ div.GlobalSideBar {
     display: none
 }
 
-header.AppHeader{
+header.AppHeader{ 
+    display: none
+}
+
+/* upvote and comment bar */
+div.ContentItem-actions{ 
+    display: none
+}
+
+/* Sharer */
+div.FeedSource-firstline{
+    display: none
+}
+
+div.AuthorInfo{
+    display: none
+}
+
+div.ArticleItem-extraInfo{
+    display: none
+}
+
+div.AnswerItem-extraInfo{
     display: none
 }
